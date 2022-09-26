@@ -1,0 +1,10 @@
+[doc]
+name = 'resume'
+bundle = 'https://data1.fullyjustified.net/tlextras-2021.3r1.tar'
+
+[[output]]
+name = 'default'
+type = 'pdf'
+index = 'resume'
+preamble = ''
+postamble = ''
