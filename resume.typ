@@ -39,7 +39,7 @@ GPA: 4.0, Minor in Mathematics, Honors Program
   company: "Apple",
   when: "Summer 2023",
   description: [
-    - On the Productivity, Drawables team
+    - On the Productivity Apps team responsible for canvas, editing, and core infrastructure
     - Built a highly requested feature for Keynote, Pages, and Numbers on macOS, iOS, and Web
     - Wrote a specification to define the behavior of the feature and its implementation
     - Debugged a complex UI framework
