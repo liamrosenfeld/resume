@@ -30,7 +30,7 @@
 
 *BS in Computer Engineering*, University of Florida
 #h(1fr) Class of 2025 #linebreak()
-GPA: 4.0, Minor in Mathematics, Honors Program
+GPA: 3.98, Minor in Mathematics, Honors Program
 
 == Work History
 
@@ -51,9 +51,20 @@ GPA: 4.0, Minor in Mathematics, Honors Program
   company: "Parametic Capital",
   when: "Summer 2022",
   description: [
-    - Built a server to collect, aggregate, and serve time series metrics to a visualization frontend
-    - Used Rust (with Axum and Tonic frameworks) for performance and MongoDB for storing structured data
-    - Designed and implemented a RESTful OpenAPI specification and a GRPC Protobuf specification
+    - Built a server to collect, aggregate, and serve time series metrics to a visualization frontend using Rust
+  ]
+)
+
+== Research
+
+#projectItem(
+  name: "Lilypad",
+  when: "2021-Present",
+  writeup: link("https://ieeexplore.ieee.org/document/10305659")[First Paper],
+  description: [
+    - Building a text-based visual code editor to improve programming education
+    - First author for showpiece paper in the 2023 IEEE Symposium on Visual Languages and Human-Centric Computing
+    - Building using Rust to run native and in Web Assembly
   ]
 )
 
@@ -66,12 +77,13 @@ GPA: 4.0, Minor in Mathematics, Honors Program
 ]
 
 #projectItem(
-  name: "Raspberry Pi OS",
-  when: "Built 2022",
-  writeup: link("https://liamrosenfeld.com/projects/rustos/")[Writeup],
+  name: "NaviGator",
+  when: "Released 2023",
+  writeup: "",
   description: [
-    - A kernel and basic operating system for a Raspberry Pi built in Rust
-    - Implemented booting, GPIO, UART, chainloading, allocation, and a Fat32 filesystem
+    - Mobile app for the Gainesville RTS (bus system)
+    - Built in a team of two, my responsibility is the live map (built with MapKit) and data fetching
+    - Thousands of downloads with hundreds of daily active users
   ],
   isDigital: isDigital
 )
@@ -82,8 +94,7 @@ GPA: 4.0, Minor in Mathematics, Honors Program
   writeup: "",
   description: [
     - Website so students can crowdsouce the location of friendly campus cats to pet
-    - Built using Rust, React, and PostgreSQL for ease of development and stability
-    - Built in a team of four organized using Agile
+    - Built in a team of four using Rust, React, and PostgreSQL for ease of development and stability
   ],
   isDigital: isDigital
 )
@@ -95,6 +106,17 @@ GPA: 4.0, Minor in Mathematics, Honors Program
   description: [
     - macOS app to stream-line the process of icon generation with 6.5k downloads
     - Built using AppKit, CoreGraphics, and SwiftUI
+  ],
+  isDigital: isDigital
+)
+
+#projectItem(
+  name: "Raspberry Pi OS",
+  when: "Built 2022",
+  writeup: link("https://liamrosenfeld.com/projects/rustos/")[Writeup],
+  description: [
+    - A kernel and basic operating system for a Raspberry Pi built in Rust
+    - Implemented booting, GPIO, UART, chainloading, allocation, and a Fat32 filesystem
   ],
   isDigital: isDigital
 )
@@ -123,19 +145,6 @@ GPA: 4.0, Minor in Mathematics, Honors Program
     - Interface built using SwiftUI, UIKit, and AppKit and generation uses Accelerate vImage
   ],
   isDigital: isDigital
-)
-
-== Research
-
-#projectItem(
-  name: "Lilypad",
-  when: "2021-Present",
-  writeup: "",
-  description: [
-    - Building a text-based visual code editor to improve programming education
-    - First author for showpiece paper in the 2023 IEEE Symposium on Visual Languages and Human-Centric Computing
-    - Building using Rust to run native and in Web Assembly
-  ]
 )
 
 == Teaching

@@ -4,13 +4,13 @@
   set document(author: name, title: name + "'s Resume")
   set page("us-letter", margin: (x: 0.5in, y: 0.5in))
 
-  set text(10pt)
+  set text(9.5pt)
   set list(indent: 7pt)
 
   show heading.where(level: 1): it => text(16pt, weight: "bold", it.body)
 
   show heading.where(level: 2): it => block[
-    #text(10pt, weight: "bold", upper(it.body))
+    #text(9.5pt, weight: "bold", upper(it.body))
     #v(weak: true, 5pt)
     #line(length: 100%, stroke: 0.4pt)
   ]
