@@ -16,13 +16,13 @@
 #skillsTable(
   content: (
     strong("Languages"),
-    "Swift, Rust, Objective-C, C++, C, Python, ARM & AVR Assembly, Typescript, SQL, VHDL",
+    "Swift, Rust, Objective-C, C++, C, Python, ARM, X86, & AVR Assembly, Typescript, SQL, VHDL",
     
     strong("Frameworks"),
     "SwiftUI, AppKit, UIKit, Accelerate, Axum, Vue, Svelte",
     
     strong("Tools"),
-    "macOS, Linux, Git, Xcode Instruments, Docker, MongoDB, LaTeX"
+    "macOS, Linux, Git, Xcode Instruments, Web Assembly, Docker, MongoDB, LaTeX"
   )
 )
 
@@ -30,9 +30,20 @@
 
 *BS in Computer Engineering*, University of Florida
 #h(1fr) Class of 2025 #linebreak()
-GPA: 3.98, Minor in Mathematics, Honors Program
+GPA: 3.98, Minor in Mathematics, Honors Program, University Scholars Program
 
 == Work History
+
+#workItem(
+  role: "Software Engineering Intern",
+  company: "Apple",
+  when: "Summer 2024",
+  description: [
+    - On the Productivity Apps team responsible for canvas, editing, and core infrastructure
+    - Designed and implemented a feature to address a highly requested use case
+    - Developed and verified a collection of geometric algorithms
+  ]
+)
 
 #workItem(
   role: "Software Engineering Intern",
@@ -60,7 +71,7 @@ GPA: 3.98, Minor in Mathematics, Honors Program
 #projectItem(
   name: "Lilypad",
   when: "2021-Present",
-  writeup: link("https://ieeexplore.ieee.org/document/10305659")[First Paper],
+  writeup: [#link("https://ieeexplore.ieee.org/document/10305659")[Paper], #link("https://liamrosenfeld.com/projects/lilypad/")[Writeup]],
   description: [
     - Building a text-based visual code editor to improve programming education
     - First author for showpiece paper in the 2023 IEEE Symposium on Visual Languages and Human-Centric Computing
@@ -79,11 +90,10 @@ GPA: 3.98, Minor in Mathematics, Honors Program
 #projectItem(
   name: "NaviGator",
   when: "Released 2023",
-  writeup: "",
+  writeup: link("https://liamrosenfeld.com/projects/navigator/")[Writeup],
   description: [
-    - Mobile app for the Gainesville RTS (bus system)
+    - Third party mobile app for the Gainesville bus system with over five thousand daily active users
     - Built in a team of two, my responsibility is the live map (built with MapKit) and data fetching
-    - Thousands of downloads with hundreds of daily active users
   ],
   isDigital: isDigital
 )
@@ -91,7 +101,7 @@ GPA: 3.98, Minor in Mathematics, Honors Program
 #projectItem(
   name: "UF Cat Tracker",
   when: "Built 2022",
-  writeup: "",
+  writeup: link("https://liamrosenfeld.com/projects/cat-tracker/")[Writeup],
   description: [
     - Website so students can crowdsouce the location of friendly campus cats to pet
     - Built in a team of four using Rust, React, and PostgreSQL for ease of development and stability
@@ -104,7 +114,7 @@ GPA: 3.98, Minor in Mathematics, Honors Program
   when: "Released 2020",
   writeup: link("https://liamrosenfeld.com/projects/iconology")[Writeup],
   description: [
-    - macOS app to stream-line the process of icon generation with 6.5k downloads
+    - macOS app to streamline the process of icon generation with 6.5k downloads
     - Built using AppKit, CoreGraphics, and SwiftUI
   ],
   isDigital: isDigital
@@ -125,12 +135,11 @@ GPA: 3.98, Minor in Mathematics, Honors Program
   name: "WWDC Accepted Scholarship Playgrounds",
   when: "2019, 2020",
   writeup: [
-    #link("https://liamrosenfeld.com/projects/fourier-artist/")[2019 Writeup,]
+    #link("https://liamrosenfeld.com/projects/fourier-artist/")[2019 Writeup], 
     #link("https://liamrosenfeld.com/projects/stfourier-explainer/")[2020 Writeup]
   ],
   description: [
-    - My 2019 submission visualized the Fourier transform as rotating circles drawing a path
-    - My 2020 submission taught applying the Fourier transform to digital signal processing using Accelerate vDSP
+    - Visualized the Fourier transform as applied to both art (in 2019) and sound (in 2020)
     - I had an opportunity to discuss my projects with Tim Cook
   ],
   isDigital: isDigital
@@ -141,8 +150,8 @@ GPA: 3.98, Minor in Mathematics, Honors Program
   when: "Released 2017",
   writeup: link("https://liamrosenfeld.com/projects/ascii-art/")[Writeup],
   description: [
-    - iOS and macOS app on the App Store with 17k downloads
-    - Interface built using SwiftUI, UIKit, and AppKit and generation uses Accelerate vImage
+    - iOS and macOS app on the App Store with seventeen thousand downloads
+    - Interface built using SwiftUI, UIKit, & AppKit and generation uses Accelerate vImage
   ],
   isDigital: isDigital
 )
